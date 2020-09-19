@@ -9,7 +9,7 @@ body {font-family: Arial, sans-serif;
 
 section {padding: 50px 0px;}
 
-.section_headding {font-size: 30px; color: #445161;}
+.section_headding {font-size: 30px; color: #445161; font-weight: 400;}
 
 /* Первая секция */
 .header {background-color: #445162; padding: 50px 0px 60px 0px;}
