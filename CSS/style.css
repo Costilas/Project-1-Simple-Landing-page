@@ -102,6 +102,7 @@ h1 {margin-bottom: 55px; font-size: 60px}
 				left: -25px;}
 
 .reviews_upper {margin-bottom: 25px;}
+.right_reviews_inner_block {padding-left: 15px;}
 
 
 /* Секция buynow */
@@ -109,14 +110,47 @@ h1 {margin-bottom: 55px; font-size: 60px}
 .buynow_main_section {max-width: 990px;
 					margin: 0 auto;}
 
+.buynow_central_item {margin: 0px 45px;}
+
 /* Стилизация тайлов товаров */
 .buynow_item {width: 30%;
 			display: inline-block;
 			background-color: #445162;
-			color: white;}
-.buynow_item {display: inline-block;}
-.buynow_item_name {margin: 0 auto;}
+			color: white;
+			padding: 10px 0px 20px 0px;
+			border-radius: 3px;
+		    text-align: center;}
+
+.buynow_item_price {font-size: 40px;
+					line-height: 30px;}
+
+.buynow_item_name {margin: 0 auto; font-size: 24px; 
+					line-height: 30px;
+					margin-bottom: 15px;}
+
 
 ol {list-style-position: inside;}
 
-.buynow_item_list {padding:20px;}
+.buynow_item_list {padding:20px;
+					font-size: 14px;
+					line-height: 24px;
+					text-align: left;}
+
+.buynow_item_price_block {width: 98%;
+							padding:20px;
+							background-color: #fff;
+							color: #445162;
+							margin: 0 auto;}
+
+.buynow_item_button {margin: 0 auto;
+					display: block;
+					width: 90%;
+					padding: 10px;
+					border-radius: 5px;
+					border-style: none;
+					background-color: #fff;
+					font-weight: bold;
+					font-size: 18px;
+					color:#445162;
+					text-transform: uppercase;}
+
