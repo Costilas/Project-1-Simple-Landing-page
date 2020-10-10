@@ -154,3 +154,51 @@ ol {list-style-position: inside;}
 					color:#445162;
 					text-transform: uppercase;}
 
+/* Секция контакты */
+
+.contacts {padding:50px 0px;
+			background-color: #445162;}
+.contact_headding h2 {color: #fff;}
+
+.contacts_main_block {width: 70%;
+						margin: 0 auto;}
+.contacts_form_block, .contacts_information_main_block {display: inline-block;}
+.contacts_form_block {width:60%;}
+
+
+.form_item {display: block; 
+			width: 100%;
+			border-radius: 3px;
+			border-style: none;
+			padding:10px;
+			margin-bottom: 20px;
+			font-size: 16px;
+			line-height: 24px;}
+input {color: #445162;}
+
+textarea {resize:none;
+		height: 170px;
+		font-family: arial, sans-serif;}
+
+.form_button {width: 33%;
+			margin:0 auto;
+			margin-bottom: 0px;
+			background-color: #fff;
+			text-transform: uppercase;
+			font-weight:bold;}
+
+
+.contacts_information_main_block {width: 35%; 
+								vertical-align: top;
+								color:#fff;}
+
+
+.information_icon, .information_text {display: inline-block;}
+.information_item  {margin-bottom: 20px;
+					position: relative;}
+
+.information_icon {}
+.information_icon img {width: 100%; object-fit: cover;}
+
+
+.information_text {position: absolute; z-index: 1; top:50%; left: 50%;}
